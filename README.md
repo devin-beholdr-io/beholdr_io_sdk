@@ -16,9 +16,9 @@ Here is a basic example of how to use the Beholdr.io SDK
         def do_something(self):
             try:
                 result = self.something() 
-                response = client.emit_metric(200, "Did something")
+                response = client.emit_metric("MyService.do_something_success", 200, "Did something")
             except Exception as e:
-                response = client.emit_metric(400, "Unable to do something.")
+                response = client.emit_metric("MyService.do_something_failure", 400, "Unable to do something.")
 ```
 
 

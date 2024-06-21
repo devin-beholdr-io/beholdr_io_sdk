@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: beholdr_io_sdk
-Version: 0.1.7
+Version: 0.1.8
 Summary: A Python SDK for interacting with Beholdr.io's Metrics API.
 Author: Beholdr.io
 Author-email: devin@beholdr.io

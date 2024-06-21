@@ -10,8 +10,9 @@ class BeholdrClient:
             "Accept": "application/json",
         }
 
-    def emit_metric(self, status_code: int, message: str):
+    def emit_metric(self, name:str, status_code: int, message: str):
         body = {
+            "name": name,
             "status_code": status_code,
             "message": message,
         }
