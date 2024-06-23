@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='beholdr_io_sdk',
-    version='0.1.8',
+    version='0.1.10',
     description='A Python SDK for interacting with Beholdr.io\'s Metrics API.',
     author='Beholdr.io',
     author_email='devin@beholdr.io',
